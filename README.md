@@ -1,8 +1,7 @@
-# vue-simple-boilerplate
+# vue-mdc-adapter-simple vue-cli boilerplate
 
-> The simplest possible Vue setup in a single HTML file
+> The simplest possible Vue MDC Adapter setup in a single HTML file
 
-> This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init simple#1.0 my-project`
 
 ### Before You Start...
 
@@ -15,9 +14,12 @@ For advanced features such as asset compilation, hot-reload, lint-on-save, unit 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-$ npm install -g vue-cli      # Install vue-cli if you haven't already
-$ vue init simple my-project  # Create a new project based on this template
-$ cd my-project               # Navigate into your new project folder
+# Install vue-cli if you haven't already
+$ npm install -g vue-cli      
+
+# Create a new project based on this template
+$ vue init stasson/vue-mdc-adapter-boilerplate my-project
+$ cd my-project             
 
 $ npm install -g live-server  # Install live-server if you haven't already
 $ live-server                 # Run live-server and open it in your browser
