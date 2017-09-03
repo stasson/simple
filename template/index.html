@@ -4,13 +4,14 @@
   <title>Welcome to Vue MDC Adapter</title>
   
   <!-- import material icons, fonts and vue-mdc-adapter stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">  
-  <link rel="stylesheet" href="https://unpkg.com/vue-mdc-adapter/dist/vue-mdc-adapter.css">  
+  <link rel="stylesheet" href="https://unpkg.com/vue-mdc-adapter/dist/vue-mdc-adapter.min.css">  
 
   <!-- import vue and then vue-mdc-adapter -->
   <script src="https://unpkg.com/vue"></script>
-  <script src="https://unpkg.com/vue-mdc-adapter/dist/vue-mdc-adapter.js"></script>
+  <script src="https://unpkg.com/vue-mdc-adapter/dist/vue-mdc-adapter.min.js"></script>
 </head>
 <body>
   <div id="app">
@@ -34,7 +35,7 @@
         </div>
       </mdc-card-text>
       <mdc-card-actions>
-        <mdc-card-action @click="showSnackbar">Hello</mdc-card-action>
+        <mdc-card-action-button @click="showSnackbar">Hello</mdc-card-action>
       </mdc-card-actions>
     </mdc-card>
     <mdc-snackbar></mdc-snackbar>
@@ -54,7 +55,7 @@
           },
           { 
             desc: 'To learn more about Vue MDC Adapter, visit', 
-            url: 'https://github.com/stasson/vue-mdc-adapter' 
+            url: 'https://github.com/stasson/vue-mdc-adapter/wiki' 
           },
           { 
             desc: 'To have a preview of Vue MDC Adapter components, visit', 
