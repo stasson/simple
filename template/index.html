@@ -16,16 +16,10 @@
 <body>
   <div id="app">
     <mdc-card style="margin: 64px auto; max-width: 800px;">
-      <mdc-card-media src="https://material-components-web.appspot.com/images/16-9.jpg">
-        <mdc-card-horizontal>
-          <mdc-card-img mult=1.5
-            src="https://github.com/stasson/vue-mdc-adapter/wiki/img/logo.png"></mdc-card-img>
-          <mdc-card-header class="mdc-theme--dark">
-            <mdc-card-title large>\{{title}}</mdc-card-title>
-            <mdc-card-subtitle>\{{subtitle}}</mdc-card-subtitle>
-          </mdc-card-header>
-        </mdc-card-horizontal>
-      </mdc-card-media>
+      <mdc-card-header>
+        <mdc-card-title large>\{{title}}</mdc-card-title>
+        <mdc-card-subtitle>\{{subtitle}}</mdc-card-subtitle>
+      </mdc-card-header>
       <mdc-card-text>
         <div style="margin-top: 16px;">
           <mdc-body v-for="item in links" :key="item.id">
